@@ -1,4 +1,141 @@
+
+# ==========================================
+# CONSTANTINO ANDRADE — PERSONAL WEBSITE
+# Theme: Austere
+# ==========================================
+
+# Site information
 title = "Constantino Andrade"
-description = "Mathematics, Physics, and Research"
-base_url = "https://YOUR-USERNAME.github.io"
+description = "Personal website of Constantino Andrade. Mathematics, experimental condensed matter physics, and theoretical biophysics."
+
+base_url = "https://consandrade.github.io"
+
+# Theme
 theme = "austere"
+
+# General settings
+compile_sass = false
+build_search_index = true
+default_language = "en"
+
+# RSS and Atom feeds
+generate_feeds = true
+feed_filenames = ["atom.xml", "rss.xml"]
+
+# Taxonomies
+taxonomies = [{ name = "tags", feed = true }]
+
+
+# ==========================================
+# SEARCH
+# ==========================================
+
+[search]
+index_format = "fuse_javascript"
+
+
+# ==========================================
+# MARKDOWN AND CODE HIGHLIGHTING
+# ==========================================
+
+[markdown.highlighting]
+light_theme = "github-light"
+dark_theme = "github-dark"
+add_color_scheme = false
+
+
+# ==========================================
+# URL FORMATTING
+# ==========================================
+
+[slugify]
+paths = "on"
+taxonomies = "on"
+anchors = "on"
+
+
+# ==========================================
+# PERSONALIZATION
+# ==========================================
+
+[extra]
+
+# Search engine keywords
+keywords = "Constantino Andrade, mathematics, physics, condensed matter physics, theoretical biophysics, research, rare-earth tellurides, stochastic processes"
+
+# Subtitle shown in the website header
+strapline = "Mathematics & Physics"
+
+# Footer
+footer_text = "Constantino Andrade"
+
+# Optional graphics
+# Uncomment these if you add the corresponding files.
+
+# site_icon = "quill.svg"
+# favicon = "/favicon.ico"
+# profile_picture = "/images/profile.svg"
+
+
+# ==========================================
+# ICON SETTINGS
+# ==========================================
+
+inline_icons = true
+icon_path = "static/icons/"
+icons = ["light", "asleep", "rss"]
+
+
+# ==========================================
+# RESPONSIVE IMAGES
+# ==========================================
+
+image_format = "auto"
+image_quality = 80
+images_default_size = 1024
+images_sizes = [512, 1024, 2048]
+
+
+# ==========================================
+# NAVIGATION
+# ==========================================
+
+# Links to sections on the homepage.
+# Additional pages can be added later.
+
+menu_links = [
+  { url = "$BASE_URL/", name = "Home" },
+  { url = "$BASE_URL/#about-me", name = "About" },
+  { url = "$BASE_URL/#research", name = "Research" },
+  { url = "$BASE_URL/#personal-interests", name = "Interests" },
+]
+
+
+# ==========================================
+# LIGHT THEME
+# ==========================================
+
+[extra.colours.light]
+
+background = "#FAF7F2"
+text = "#1a1a1a"
+text_muted = "#3a3a3a"
+accent = "#9E4440"
+accent_hover = "#7A3533"
+code_bg = "#f0ebe3"
+border = "#e0d9ce"
+
+
+# ==========================================
+# DARK THEME
+# ==========================================
+
+[extra.colours.dark]
+
+background = "#141413"
+text = "#e8e8e8"
+text_muted = "#a0a0a0"
+accent = "#E07A5F"
+accent_hover = "#F4A594"
+code_bg = "#1e1e1d"
+border = "#2a2a29"
