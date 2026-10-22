@@ -81,7 +81,7 @@ footer_text = "Constantino Andrade"
 # ICON SETTINGS
 # ==========================================
 
-inline_icons = true
+inline_icons = false
 icon_path = "static/icons/"
 icons = ["light", "asleep", "rss"]
 
