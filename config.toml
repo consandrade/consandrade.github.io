@@ -105,9 +105,6 @@ images_sizes = [512, 1024, 2048]
 
 menu_links = [
   { url = "$BASE_URL/", name = "Home" },
-  { url = "$BASE_URL/#about-me", name = "About" },
-  { url = "$BASE_URL/#research", name = "Research" },
-  { url = "$BASE_URL/#personal-interests", name = "Interests" },
 ]
 
 
